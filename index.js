@@ -9,7 +9,7 @@ app.get("/price", async (req, res) => {
     if (typeof from !== "string" || typeof to !== "string" || isNaN(amount)) {
       console.log("err");
       const ERROR = {
-        ERR: "Ne valodnie danniy",
+        ERR: "Ne validnie danniy",
       };
       res.send(ERROR);
       return;
