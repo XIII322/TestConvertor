@@ -1,7 +1,7 @@
 const express = require("express");
+const axios = require("axios");
 const Port = 1488;
 const app = express();
-const axios = require("axios");
 
 app.get("/price", async (req, res) => {
   try {
