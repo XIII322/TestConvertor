@@ -41,5 +41,5 @@ app.get("/price", async (req, res) => {
 });
 
 app.listen(Port, () => {
-  console.log(`http://localhost:${Port}/`);
+  console.log(`http://localhost:${Port}/price?from=()&to=()&amount=()`);
 });
